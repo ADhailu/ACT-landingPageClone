@@ -15,8 +15,9 @@
             background-color: rgb(248, 239, 239);
         }
        
+        
         .navbrand{
-             width: 250px;
+             width: 200px;
              height: 60px;
         }
         
@@ -34,8 +35,11 @@
             opacity: .85;
         }
 
+        .card{
+          height: 450px;
+        }
         .card img{
-            height: 300px;
+            height: 400px;
         }
         .icons img{
             width: 100px !important; 
@@ -85,18 +89,27 @@
             box-shadow: 5px 5px 15px #fff;
         }
         .our-clients img{
-            height: 150px;
-            width: 200px;
+            height: 100px;
+            width: 150px;
             margin: 5px;
+            cursor: pointer;
         }
         .imgs img{
           width: 100%;
         }
+
+        .social i{
+          color: rgb(122, 117, 117);
+          font-size: 20px;
+          cursor: pointer;
+        }
+        
     </style>
+
 
 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light my-3" style="border-radius: 10px !important; margin-left: 100px; margin-right: 100px;">
     <div class="container-fluid" style="padding: 5px !important;">
-      <img src="http://act.edu.et/assets/img/act1.png" class="navbrand align-self-start" alt="">
+      <img src="http://act.edu.et/assets/img/act1.png" class="navbrand" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -173,11 +186,11 @@
   <div class="container-fluid py-5" style="background: url(http://act.edu.et/assets/img/bg4.png) no-repeat; background-size: cover; height: 100vh;">
 
   <div class="headder">
-    <div class="row m-5 py-5">
+    <div class="row m-lg-5 py-5">
         <div class="col-md-12">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 my-5">
+                    <div class="container-fluid my-lg-5 my-5">
                         <h1 style="margin-top: 50px !important; color: white;" class="text-center">American College Of Technology Affilated With Maharashi International University</h1>
                         <h2 style="color: white;" class="text-center">A Place For <span id="animate"></span> </h2>
                         <p style="color: white; font-size: 25px;" class="text-center">A Unique Program for Students Worldwide</p>
@@ -185,20 +198,19 @@
                 </div>
             </div>
     
-    
-                <div class="container p-3 d-flex flex-row justify-content-center align-items-center">
+                <div class="container mb-5 p-lg-3">
                     <div class="row d-flex flex-row justify-content-center align-items-center">
-                        <div class="col-md-6">
-    
-                            <button class="btn mt-2" style="background: white; border-radius: 10px; width: 210px; ">Apply For Online Program</button>
+
+                        <div class="col-6 d-flex flex-row justify-content-end align-items-center"><button class="btn mt-2" style="background: white; border-radius: 10px; width: auto; ">Apply For Online Program</button>
                         </div>
-                        <div class="col-md-6">
-        
-                            <button class="btn mt-2" style="background: white; border-radius: 10px; width: 210px;">Apply For Regular Program</button>
+                        <div class="col-6 d-flex flex-row justify-content-start align-items-center"><button class="btn mt-2" style="background: white; border-radius: 10px; width: auto;">Apply For Regular Program</button>
                         </div>
+                        
                     </div>
     
                 </div>
+
+                
     
     
         </div>
@@ -206,19 +218,45 @@
   </div>
   
 <!-- main container  starts here-->
-  <div class="container mt-lg-5 mt-md-0" style="background: whitesmoke; height: auto; border-radius: 15px; box-shadow: 0 0 10px 3px #cfc9c9;">
+  <div class="container-fluid mt-lg-5 mt-md-0" style="background: white; height: auto; border-radius: 15px; box-shadow: 0 0 10px 3px #cfc9c9;">
     <!-- about section -->
   <section class="about">
     <div class="row d-flex flex-row justify-content-center align-items-center" style="padding:40px;">
-      <div class="col-md-8">
+      <div class="col-md-8 col-sm-12">
               
                   <h1 style="align-self: center; font-size: 30px; color: rgb(31, 69, 82)">AN EXCITING OPPORTUNITY FOR MSC IN COMPUTER
                        SCIENCE AND MBA PROGRAM APPLICANTS</h1>
                   <p style="font-weight: 100; color: rgb(142, 175, 182); font-size: 17px;"> American College of Technology (ACT) is a higher learning institution established with a mission of producing internationally competent professionals in the field of Management, Business Administration and Computer Science programs at graduate level. ACT is fully accredited by the Ethiopian Higher Education Agency. The College aspires to be one of the leading higher learning institutions in the region. ACT engages highly qualified and experienced academic staff members from the US and local to make you highly competent in the industry. ACT has already started registration for 2020/21 during normal working hours. Our programs are unique, flexible and affordable. Don't miss it!!! If you are interested to get registered, please call or email or visit us.</p>
           </div>
       
-          <div class="col-md-4">
-              
+          <div class="col-md-3 col-sm-2">
+
+
+            <div class="card text-white bg-danger mt-3 front" style="height: 400px; cursor: pointer;">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1365&amp;q=80" alt="Title" style="opacity: .1; background-size: cover;">
+              <div class="card-body text-center ">
+                <div class="card-img-overlay position-absolute d-flex flex-column justify-content-center align-items-center">
+                  <i class="material-icons text-white text-4xl my-3">touch_app</i>
+                      <h3 class="text-white">Develop Your Inner Genius</h3>
+                      <p class="text-white opacity-8">As a student, you’ll have the opportunity to learn soft skill technique to improve your learning ability and job performance.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flid card -->
+            <div class="card text-white bg-danger mt-3 back" style="height: 400px; display: none; cursor: pointer;">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80" alt="Title" style="opacity: .1; background-size: cover;">
+              <div class="card-body text-center ">
+                <div class="card-img-overlay position-absolute d-flex flex-column justify-content-center align-items-center">
+                  <i class="material-icons text-white text-4xl my-3">touch_app</i>
+                      <h3 class="text-white">Develop Your Inner Genius</h3>
+                      <p class="text-white opacity-8">As a student, you’ll have the opportunity to learn soft skill technique to improve your learning ability and job performance.</p>
+                </div>
+              </div>
+            </div>
+            
+
+            <!--               
               <div class="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5">
                   <div class="front front-background" style="background-image: url(https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80); background-size: cover;">
                     <div class="card-body py-7 text-center">
@@ -226,7 +264,7 @@
                       <h3 class="text-white">Develop Your Inner Genius</h3>
                       <p class="text-white opacity-8">As a student, you’ll have the opportunity to learn soft skill technique to improve your learning ability and job performance.</p>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- <div class="back back-background" style="background-image: url(https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1365&amp;q=80); background-size: cover;">
                     <div class="card-body pt-7 text-center">
                       <h3 class="text-white">Accredited, Respected and Recognized</h3>
@@ -243,7 +281,7 @@
                     </div>
                   </div> -->
                   
-                </div>
+          </div>
   
                     
                     
@@ -251,11 +289,11 @@
   
   
   </div>
-  </div>
+
   </section>
   
  <!-- news sec -->
- <section class="news" style="background: rgb(227, 240, 245); height: auto; margin-top: 30px;">
+ <section class="news bg-light" style="height: auto; margin-top: 30px;">
     <div class="container-fluid" style="padding: 40px; padding-bottom: 50px;">
       <h3 class="mt-2 "><a href="/news" style="text-decoration: none; color: rgb(31, 69, 82); padding: 20px;">Recent News</a></h3>
       <div class="row">
@@ -294,14 +332,14 @@
   </section>
 
   <!-- clients sec -->
-  <section class="our-clients">
-    <div class="container my-5 p-5">
+  <section class="our-clients p-lg-5">
+    <div class="container my-5 p-lg-5">
       <div class="row">
-          <div class="col-12 ">
+          <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
               <h1 class="text-center">OUR CLIENTS</h1>
-              <div class="container-fluid d-flex flex-row justify-content-center align-items-center">
+              <div class="container mx-lg-5 d-flex flex-row justify-content-center align-items-center">
 
-              <div class="container-image">
+              <div class="container p-5">
 
                 <img src="http://act.edu.et/assets/img/boa.jpeg" alt="Abysinia">
 
@@ -387,7 +425,7 @@
             <p>Coursera Inc. is an American massive open online course provider founded in 2012 by Stanford University computer science professors Andrew Ng and Daphne Koller. Coursera works with universities and other organizations to offer online courses, certifications, and degrees in a variety of subjects</p>
         </div>
         <div class="col-md-6">
-            <img src="..." alt="Coursera">
+            <img src="..." alt="">
         </div>
       </div>
 
